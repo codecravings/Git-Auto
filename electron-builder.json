@@ -1,0 +1,15 @@
+{
+  "appId": "com.gitauto.app",
+  "productName": "Git Auto",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*"
+  ],
+  "linux": {
+    "target": ["AppImage"],
+    "category": "Development"
+  }
+}
